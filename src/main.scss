@@ -1,0 +1,7 @@
+// Overwrite Bootstrap colors
+$primary: teal;
+$danger: purple;
+
+// The tilde is Webpack-specific, it points to the node_modules folder
+// https://stackoverflow.com/a/39535907/5653974
+@import "~bootstrap/scss/bootstrap";
